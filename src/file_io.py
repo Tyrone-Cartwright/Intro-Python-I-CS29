@@ -10,7 +10,7 @@ import os
 # Print all the contents of the file, then close the file
 
 # YOUR CODE HERE
-with open('foo.txt') as f:
+with open('/Users/tyrone/Desktop/LambdaSchool/Intro-Python-I-CS29/src/foo.txt') as f:    
     dataText = f.read()
     print(dataText)
 f.closed
@@ -25,4 +25,4 @@ with open('bar.txt', 'w') as f:
     string = f.write('This is my first line\nThis is my second line\nThis is my third line')
     print(string)
 f.closed
-f = open('bar.txt')
+
